@@ -10,6 +10,7 @@ import (
 	"github.com/fanialfi/contex-cancellation-pipeline/lib"
 )
 
+// this funciton are used to generate random file
 func GenerateFileConc() {
 	err := os.RemoveAll(lib.TempPath)
 	if err != nil {
